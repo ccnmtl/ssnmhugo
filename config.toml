@@ -1,0 +1,9 @@
+baseURL = "https://ssnm.ctl.columbia.edu/"
+metaDataFormat = "yaml"
+languageCode = "en-us"
+title = "Social Support Network Map"
+
+[params]
+    description = "The Social Support Network Map is a tool to help students and mental health professionals create digital social support maps. This tool helps you create an image that shows important people in the life of you or your client, tag those people as negative, neutral or positive supports, and assign them support attributes. It will help guide a discussion of if, where and how to engage supports for help."
+    keywords = ""
+    shortTitle = "SSNM"

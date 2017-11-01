@@ -1,0 +1,10 @@
+<header role="banner" class="container" id="headcontainer">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#maincontent"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+    <div class="navbar-header clearfix" id="project-logo-header">
+        <a href="{{ .Site.BaseURL }}" class="navbar-brand" id="primary-logo"><img src="{{ .Site.BaseURL }}img/logo-primary.png" alt="Go to {{ .Site.Params.shortTitle }} home page" itemprop="primaryImageOfPage" /></a>
+        <div id="secondary-logo"><img src="{{ .Site.BaseURL }}img/logo-secondary.png" alt="This project is part of the Uncharted Dental Education program" /></div>
+    </div>
+    <h1 id="page-banner" class="hidden-print"><span class="sr-only">{{ .Site.Title }}</span></h1>
+     <meta itemprop="url" content="{{ .Permalink }}" />
+    <meta itemprop="name" content="{{ .Site.Params.shortTitle }}: {{ .Title }}" />
+</header>

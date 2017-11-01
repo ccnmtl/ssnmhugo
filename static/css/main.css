@@ -1,0 +1,26 @@
+/* Header + Banner -------------------------------------------------------- */
+
+#skippy
+{
+	display: block;
+	padding: 1em;
+	color: #000;
+	background-color: #94d8da;
+	outline: 0;
+}
+
+#skippy .skiplink-text
+{
+	padding: .5em;
+	outline: 1px dotted;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+header {
+    position: relative;
+}
+
+header.container {
+    padding: 0;
+}
