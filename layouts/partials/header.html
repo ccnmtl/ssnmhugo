@@ -12,6 +12,12 @@
     {{ "<!-- Bootstrap CSS -->" | safeHTML }}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     
+    {{ "<!-- FontAwesome CSS -->" | safeHTML }}
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css"
+        integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU"
+        crossorigin="anonymous">
+
+
     {{ "<!-- Main CSS -->" | safeHTML }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
     
@@ -24,3 +30,5 @@
 <body itemscope itemtype="http://schema.org/WebPage"{{ if .IsPage }} class="{{ .Type }}"{{ end }}>
 
  {{ partial "banner.html" . }}
+
+    <div class="container">
