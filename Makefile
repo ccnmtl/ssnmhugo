@@ -8,7 +8,7 @@ HUGO=/usr/local/bin/hugo-0.25.1
 JS_FILES=static/js/
 
 
-all: eslint
+all: webpack eslint
 
 include *.mk
 
