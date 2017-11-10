@@ -1,5 +1,22 @@
 
     </div><!-- /.container #maincontent -->
+
+<footer role="contentinfo">
+    <div class="container">
+        <h1 class="sr-only" role="presentation">{{ .Site.Params.Title }} is produced by:</h1>
+        <ul class="footer-logos" role="presentation">
+            <li itemscope itemtype="http://schema.org/EducationalOrganization"><a href="https://socialwork.columbia.edu" target="_blank" itemprop="url"><img src="{{ .Site.BaseURL }}img/logo-ssw.png" alt="" itemprop="logo" /><span class="sr-only" itemprop="name">Columbia School of Social Work</span></a></li>
+            <li itemscope itemtype="http://schema.org/EducationalOrganization"><a href="https://ctl.columbia.edu" target="_blank" itemprop="url"><img src="{{ .Site.BaseURL }}img/logo-ctl.png" alt="" itemprop="logo" /><span class="sr-only" itemprop="name">Center for Teaching and Learning at Columbia University</span></a></li>
+        </ul>
+        <ul class="footer-moreinfo hidden-print" role="presentation">
+            <li>Code licensed <a itemprop="license" href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU GPLv3</a>, content <a itemprop="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></li>
+        </ul>
+    </div>
+    <div class="d-print-block">
+    <p role="presentation">Printed from: {{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}</p>
+    </div>
+</footer>
+
 <!-- Javascript -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
