@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600|Roboto:400,500');
 
+/* Elements override -------------------------------------------------------- */
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
 /* Header + Banner -------------------------------------------------------- */
 
 #skippy
@@ -52,6 +63,7 @@ h1#page-banner {
     font-size: 20px;
     font-weight: 200;
     line-height: 35px;
+    color: #3977A7;
 }
 
 .navbar-banner-ssnm {
@@ -59,14 +71,33 @@ h1#page-banner {
 }
 
 .navbar-banner-ssnm .navbar {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
+.btn-bd-yellow {
+    font-weight: 500;
+    color: #ffe484;
+    border-color: #ffe484;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.create-map-prompt {
+    font-size: 40px;
+    font-weight: 200;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
+#maincontent {
+    padding-top: 20px;
+}
 
-
+.video-player iframe {
+    width: 330px;
+    height: 186px;
+}
 
 
 .ssnm-map-embed {
@@ -88,6 +119,10 @@ h1#page-banner {
         font-size: 30px;
         line-height: 35px;
     }
+    .video-player iframe {
+        width: 510px;
+        height: 287px;
+    }
     .ssnm-map-embed {
         height: 1000px;
     }
@@ -107,6 +142,10 @@ h1#page-banner {
         font-size: 40px;
         line-height: 35px;
     }
+    .video-player iframe {
+        width: 690px;
+        height: 388px;
+    }
     .ssnm-map-embed {
         height: 1000px;
     }
@@ -125,6 +164,10 @@ h1#page-banner {
         margin: 0 0 0 265px;
         font-size: 55px;
         line-height: 45px;
+    }
+    .video-player iframe {
+        width: 930px;
+        height: 523px;
     }
     .ssnm-map-embed {
         height: 1000px;
