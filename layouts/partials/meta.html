@@ -1,0 +1,30 @@
+<link rel="canonical" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}" />
+
+<!-- Standard Meta Data -->
+<meta name="description" content="{{ .Site.Params.description }}" />
+<meta name="keywords" content="{{ .Site.Params.keywords }}" />
+<meta name="author" content="" />
+
+<!-- Dublin Core Metadata -->
+<meta name="DC.Title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Params.shortTitle }}{{ end }}" />
+<meta name="DC.Description" content="{{ .Site.Params.description }}" />
+<!-- <meta name    = "DC.Rights"
+      content = "Copyright Acme 1999 - All rights reserved."> 
+      <link rel="canonical" href="siteurl" />
+      -->
+
+<!-- Ogg -->
+<meta property="og:image" content="{{ .Site.BaseURL }}img/og-image.png" />
+
+<!-- Twitter -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title }}",
+    "about": "{{ .Site.Params.description }}",
+    "keywords": "{{ .Site.Params.keywords }}"
+}
+</script>
