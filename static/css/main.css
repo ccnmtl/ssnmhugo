@@ -3,7 +3,7 @@
 /* Elements override -------------------------------------------------------- */
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin-top: 0;
     padding-top: 10px;
@@ -61,7 +61,7 @@ h1#page-banner {
     margin: 0 0 0 120px;
     padding: 0;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 35px;
     color: #3977A7;
 }
@@ -86,8 +86,8 @@ h1#page-banner {
 .create-map-prompt {
     font-size: 40px;
     font-weight: 200;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #maincontent {
@@ -146,6 +146,13 @@ footer {
 }
 
 @media (min-width: 576px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 300;
+        margin-top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     #project-logo-header {
         padding-top: 10px;
         padding-bottom: 15px;
@@ -156,8 +163,9 @@ footer {
     }
     h1#page-banner {
         margin: 0 0 0 150px;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 35px;
+        font-weight: 300;
     }
     .video-player iframe {
         width: 510px;
@@ -179,8 +187,9 @@ footer {
     }
     h1#page-banner {
         margin: 0 0 0 205px;
-        font-size: 40px;
+        font-size: 39px;
         line-height: 35px;
+        font-weight: 200;
     }
     .footer-logos li {
         padding: 10px 30px;
