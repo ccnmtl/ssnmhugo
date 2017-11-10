@@ -67,7 +67,7 @@ h1#page-banner {
 }
 
 .navbar-banner-ssnm {
-    background-color: #348eae;
+    background-color: #3e7794;
 }
 
 .navbar-banner-ssnm .navbar {
@@ -97,6 +97,46 @@ h1#page-banner {
 .video-player iframe {
     width: 330px;
     height: 186px;
+}
+
+
+
+/* Footer------------------------------------------------------------------ */
+
+footer {
+    border-top: 1px solid #ccc;
+    margin-top: 100px;
+}
+
+.footer-moreinfo,
+.footer-logos {
+    list-style: none;
+    margin: 0 -15px 20px -15px;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-moreinfo li,
+.footer-logos li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-moreinfo {
+    background-color: transparent;
+}
+
+.footer-logos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logos li {
+    padding: 10px;
+}
+
+.footer-logos img {
+    height: 25px;
 }
 
 
@@ -141,6 +181,12 @@ h1#page-banner {
         margin: 0 0 0 205px;
         font-size: 40px;
         line-height: 35px;
+    }
+    .footer-logos li {
+        padding: 10px 30px;
+    }
+    .footer-logos img {
+        height: 50px;
     }
     .video-player iframe {
         width: 690px;
