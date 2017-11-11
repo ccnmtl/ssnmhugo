@@ -75,6 +75,10 @@ h1#page-banner {
     padding-bottom: 5px;
 }
 
+.navbar-banner-ssnm .btn-outline-warning:not([disabled]):not(.disabled).active {
+    box-shadow: none;
+}
+
 .btn-bd-yellow {
     font-weight: 500;
     color: #ffe484;

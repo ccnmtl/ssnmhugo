@@ -1,0 +1,22 @@
+<div class="navbar-banner-ssnm">
+    <nav class="container navbar navbar-expand-md navbar-dark bg-default">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+        <a href="/map/interactive/" class='btn btn-outline-warning btn-bd-yellow{{ if .IsPage }}{{ if eq .File.BaseFileName "interactive" }} active{{ end }}{{ end }}'>Map Tool</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "tutorial" }} active{{ end }}{{ end }}'>
+                    <a class="nav-link" href="/map/tutorial/">Tutorial</a>
+                </li>
+                <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "resources" }} active{{ end }}{{ end }}'>
+                    <a class="nav-link" href="/map/resources/">Resources</a>
+                </li>
+                <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "about" }} active{{ end }}{{ end }}'>
+                    <a class="nav-link" href="/map/about/">About SSNM</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div><!-- / .navbar container -->
