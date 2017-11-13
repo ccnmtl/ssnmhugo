@@ -2,7 +2,7 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nisi at velit vulputate porttitor. In maximus vestibulum eleifend. Nam dapibus faucibus leo gravida facilisis. Nam vehicula lobortis faucibus. Vestibulum et turpis sodales, efficitur est id, viverra turpis. Quisque eget libero ut tortor efficitur luctus. Vestibulum porttitor, elit non pretium tincidunt, urna tortor sollicitudin magna, vitae placerat orci eros nec lacus.
 </p>
 
-<div class="video-player hidden-print text-center">
+<div class="video-player d-print-none text-center">
 	<iframe src='https://www.youtube.com/embed/xNyJXyWYJwY?rel=0' 
 		allowfullscreen
 		frameborder="0"
@@ -11,10 +11,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nisi at 
 	></iframe>
 </div>
 
+<div class="well d-print-block print-alert">
+<p>This segment of the page contains a video. The link to this video  is https://www.youtube.com/embed/xNyJXyWYJwY?rel=0</p>
+</div>
+
 <p>
 Duis eget vestibulum quam, eu posuere sem. Integer ornare augue quam, non efficitur ante dignissim non. Nullam laoreet volutpat arcu, nec molestie sapien tempor ac.
 </p>
 
-<p class="text-center">
+<p class="text-center d-print-none">
 <a href="/map/interactive/" class="btn btn-info btn-lg create-map-prompt">Create Map</a>
 </p>
