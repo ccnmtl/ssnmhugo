@@ -5,3 +5,4 @@ public
 .project
 .settings
 node_modules
+local.mk
