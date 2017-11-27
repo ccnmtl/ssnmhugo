@@ -1,4 +1,5 @@
 baseURL = "https://ssnm.ctl.columbia.edu/"
+googleAnalytics = "UA-51144540-18"
 metaDataFormat = "yaml"
 languageCode = "en-us"
 title = "Social Support Network Map"
