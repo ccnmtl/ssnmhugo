@@ -10,30 +10,31 @@ Vestibulum euismod hendrerit enim imperdiet sodales. Vestibulum et sem vel mi fa
 
 ### Credits
 
-##### FACULTY PARTNERS
-* Faculty
+##### Faculty Partners
+* Susan S. Witte
 * Faculty
 * Faculty
 
  
 #### CTL Production Team
 
-##### EXECUTIVE PRODUCERS
-* Person 1
-* Person 2
-* Person 3
+##### Executive Producer
+* Maurice Matiz
 
-##### PROJECT MANAGEMENT
+##### Producer
+* Lucy Appert
+
+##### Project Management
 * Jessica Rowe
 
-##### PROGRAMMING &amp; DEVELOPMENT
+##### Programming &amp; Development
 * Susan Dreher
 * Zarina Mustapha
 
-##### INTERFACE DESIGN
+##### Interface Design
 * Zarina Mustapha
 
-##### VIDEO PRODUCTION
+##### Video Production
 * Stephanie Ogden
 * Person 1
 * Person 2
