@@ -1,7 +1,7 @@
 {
   "name": "ssnmhugo",
   "version": "0.1.0",
-  "description": "The Social Support Network Map is a tool to help students and mental health professionals create digital social support maps.",
+  "description": "The Social Support Network Map is an ecomap tool to help students and mental health professionals create digital social support maps.",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
