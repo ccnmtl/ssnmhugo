@@ -11,7 +11,7 @@ Video to be added soon.
 
 ##### What browsers and/or devices should I use for this site?
 
-The Social Support Network Map Tool can be used on the latest version of following browsers:
+The Social Support Network Map Tool can be used on the latest version of the following browsers:
 
 * Chrome
 * Firefox
