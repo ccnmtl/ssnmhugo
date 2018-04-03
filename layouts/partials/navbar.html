@@ -10,9 +10,6 @@
                 <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "tutorial" }} active{{ end }}{{ end }}'>
                     <a class="nav-link" itemprop="url" href="/map/tutorial/"><span itemprop="name">Tutorial</span>{{ if .IsPage }}{{ if eq .File.BaseFileName "tutorial" }} <span class="sr-only">(current)</span>{{ end }}{{ end }}</a>
                 </li>
-                <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "resources" }} active{{ end }}{{ end }}'>
-                    <a class="nav-link" itemprop="url" href="/map/resources/"><span itemprop="name">Resources</span>{{ if .IsPage }}{{ if eq .File.BaseFileName "resources" }} <span class="sr-only">(current)</span>{{ end }}{{ end }}</a>
-                </li>
                 <li class='nav-item{{ if .IsPage }}{{ if eq .File.BaseFileName "about" }} active{{ end }}{{ end }}'>
                     <a class="nav-link" itemprop="url" href="/map/about/"><span itemprop="name">About SSNM</span>{{ if .IsPage }}{{ if eq .File.BaseFileName "about" }} <span class="sr-only">(current)</span>{{ end }}{{ end }}</a>
                 </li>
