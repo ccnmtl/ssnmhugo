@@ -99,8 +99,9 @@ h1#page-banner {
 }
 
 .video-player iframe {
-    width: 330px;
-    height: 186px;
+    width: 332px;
+    height: 188px;
+    border: 1px solid #ddd;
 }
 
 
@@ -172,8 +173,8 @@ footer {
         font-weight: 300;
     }
     .video-player iframe {
-        width: 510px;
-        height: 287px;
+        width: 512px;
+        height: 289px;
     }
     .ssnm-map-embed {
         height: 650px;
@@ -202,8 +203,8 @@ footer {
         height: 50px;
     }
     .video-player iframe {
-        width: 690px;
-        height: 388px;
+        width: 692px;
+        height: 390px;
     }
     .ssnm-map-embed {
         height: 860px;
@@ -225,8 +226,8 @@ footer {
         line-height: 45px;
     }
     .video-player iframe {
-        width: 930px;
-        height: 523px;
+        width: 932px;
+        height: 525px;
     }
 }
 
