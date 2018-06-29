@@ -8,10 +8,15 @@ HUGO=/usr/local/bin/hugo-0.25.1
 JS_FILES=static/js/
 
 
-all: webpack eslint
+all: webpack
 
 include *.mk
 
 $(PUBLIC)/js/all.json: $(PUBLIC)/json/all/index.html
 	mkdir $(PUBLIC)/js/ || true
 	mv $< $@ && ./checkjson.py
+
+clean:
+	rm -rf node_modules
+
+.PHONY: clean
