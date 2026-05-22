@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "ssnm-pack": "^0.3.0",
-    "webpack": "^5.107.0",
+    "webpack": "^5.107.1",
     "webpack-cli": "~7.0.2"
   }
 }
